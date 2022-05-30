@@ -1,0 +1,42 @@
+.container {
+    /* background-color: aqua; */
+    margin: 20px auto 30px auto;
+    width: 80%
+}
+
+.heading {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.inner-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 20px;
+}
+
+.inner-container div {
+    border: 1px solid #999;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 6px;
+    height: fit-content
+}
+
+.inner-container div span {
+    display: block;
+    font-size: 1rem;
+}
+
+.total {
+    color: #b12704;
+    text-align: center;
+    font-size: 1.3rem !important;
+    margin: 10px 0;
+}
+
+.left {
+    display:  flex;
+    justify-content: space-between;
+    padding: 20px !important;
+}
